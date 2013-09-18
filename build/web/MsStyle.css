@@ -1,0 +1,235 @@
+/* 
+    Document   : MsStyle
+    Created on : Sep 17, 2012, 4:47:10 PM
+    Author     : DX
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h1{
+    text-align: center;
+    color:  salmon;
+    font: italic 30px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+}
+
+h2{
+    color:  darkorchid;
+    font: bold 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+}
+
+body { 
+font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #4f6b72; 
+background: #E6EAE9; 
+} 
+
+a { 
+color: #c75f3e; 
+} 
+
+#mainBlock{
+    margin: 0 auto;
+    width: 1170px;
+    height: 942px;
+}
+
+#mytable { 
+width: 700px; 
+padding: 0; 
+margin: 0; 
+} 
+
+#mainpanel{
+    background-color: wheat;
+     width: 900px;
+     height:902px;
+     margin-left:10px;
+     margin-top: 10px;
+}
+
+#mainpanel2{
+    background-color: wheat;
+     width: 900px;
+     height:902px;
+     margin-left:10px;
+     margin-top: 10px;
+     
+}
+
+
+#pic{
+    float: left;
+    width: 456px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#login{
+    background-color: activeborder;
+    width: 1170px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#cheer{
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    font-family: 'Times New Roman',Times,serif;
+    font-style: normal;
+    color: #cc00ff;
+    font-weight: bold;
+}
+
+#loginform{
+    text-align: center;
+}
+
+#logoutform{
+    text-align: center;
+}
+
+#text{
+    float: left;
+    margin-top: 10px;
+    width: 450px;  
+    font: italic 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    text-align: left; 
+}
+
+#ChoiceSelection{
+    float: left;
+    /**background-image:url(Resources/bg1.PNG);**/
+    background-color: buttonface;
+    width: 260px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+#s1{
+     float: left;
+}
+
+#s2{
+    float: left;
+    display: none;
+}
+
+#operation{
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#optitle{
+    text-align: center;
+    color:  darkorchid;
+    font: bold 40px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+}
+
+#optext{
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #660066;
+    font-size: 18px;
+}
+
+#option{
+    color:  darkorchid;
+    font: bold 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    
+}
+
+#donateform{
+    background-color: wheat;
+     width: 1400px;
+}
+
+#registerform{
+    margin: 0 auto;
+    background-color: wheat;
+     width: 1400px;
+}
+
+#red{
+    color: red;
+}
+
+#green{
+    color: greenyellow;
+}
+
+#b1{
+    margin-left: 20px;
+}
+
+#doglist{
+    margin: 0 auto;
+    width: 1450px;
+}
+
+#records{
+    margin: 0 auto;
+    width: 400px;
+}
+
+caption { 
+padding: 0 0 5px 0; 
+width: 700px; 
+font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+text-align: right; 
+} 
+
+th { 
+font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #4f6b72; 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+border-top: 1px solid #C1DAD7; 
+letter-spacing: 2px; 
+text-transform: uppercase; 
+text-align: left; 
+padding: 6px 6px 6px 12px; 
+background: #CAE8EA no-repeat; 
+} 
+/*power by www.winshell.cn*/ 
+th.nobg { 
+border-top: 0; 
+border-left: 0; 
+border-right: 1px solid #C1DAD7; 
+background: none; 
+} 
+
+td { 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+background: #fff; 
+font-size:11px; 
+padding: 6px 6px 6px 12px; 
+color: #4f6b72; 
+} 
+/*power by www.winshell.cn*/ 
+
+td.alt { 
+background: #F5FAFA; 
+color: #797268; 
+} 
+
+th.spec { 
+border-left: 1px solid #C1DAD7; 
+border-top: 0; 
+background: #fff no-repeat; 
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+} 
+
+th.specalt { 
+border-left: 1px solid #C1DAD7; 
+border-top: 0; 
+background: #f5fafa no-repeat; 
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #797268; 
+} 
